@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.header-start li{
+list-style: none;
+display: inline-block;
+padding-left: 1em;
+padding-block: 1em;
+}
+
+
+.fa-arrow-left,
+.fa-arrow-right {
+color: grey;
+}
+
+.small-g i {
+    position: absolute;
+  top: 25px;
+  left: 120px;
+  z-index: 1;
+  padding-left: 0.5em;
+  color:grey;
+}
+
+.input-1 {
+    width: 85.5em;
+    height: 2.5em;
+    padding: 1em; 
+    
+    display: inline;
+    position: absolute;
+    top: 0.6em;
+    left: 115px;
+    padding-inline: 2.5em;
+    background-color: rgb(233, 231, 231);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.inside-inputbox1 i {
+position: absolute;
+z-index: 1;
+top: 25px;
+right: 148px;
+}
+
+.fa-share-from-square {
+    color: grey;
+}
+
+.inside-inputbox2 {
+    position: absolute;
+z-index: 1;
+top: 17px;
+right: 120px;
+}
+.fa-star {
+    color: grey;
+}
+.aside-icons1 img {
+    position: absolute;
+    right: 80px;
+    top: 16px;
+}
+
+.aside-icons2 img {
+    position: absolute;
+    right: 50px;
+    top: 16px;
+}
+
+.main-aside ul {
+    display: flex;
+justify-content: flex-end;
+padding: 1em;
+}
+
+.main-aside li {
+    list-style: none;
+   display: inline-block;
+   padding-inline: 1em;
+}
+
+.main-aside a {
+    text-decoration: none;
+    color: black
+}
+
+.main-aside a:hover {
+    text-decoration: underline;
+}
+
+.big-google {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.input-2 {
+    width: 50em;
+    height: 3.5em;
+    padding: 1em; 
+    top: 300px;
+    right: 25%;
+    display: inline;
+    position: absolute;
+
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    outline: none;
+}
+
+.input-2:hover {
+    box-shadow: -4px 4px 4px lightgrey;
+}
+
+.search img {
+    position: absolute;
+    bottom: 322px;
+    left: 375px;
+    z-index: 1;
+}
+
+.microphone img {
+    position: absolute;
+    bottom: 318px;
+    z-index: 1;
+    right: 360px;
+}
+
+.buttons {
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+
+}
+
+.buttons button {
+    padding-block: 0.7em;
+    padding-inline: 1em;
+   background-color: rgb(248, 245, 245);
+   border: none;
+   border-radius: 5px;
+}
+
+.buttons button:hover {
+    border: 1px solid rgb(179, 176, 176);
+    box-shadow: 4px 4px 4px lightgrey;
+}
+
+.buttons button:focus {
+    border: 1px solid blue;
+}
+
+.text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    padding-top: 1em;
+}
+
+.text a {
+    text-decoration: none;
+    padding-left: 0.8em;
+    color: darkblue;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color:  rgb(248, 245, 245);
+    margin-top: 6.2em;
+}
+footer p {
+    padding: 1em;
+    padding-inline: 2em;
+    color: grey;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em;
+}
+
+
+.start a {
+    text-decoration: none;
+    color: grey;
+    padding-left: 1em;
+}
+
+.start a:hover {
+    text-decoration: underline;
+}
+
+.start {
+   
+    align-items: center;
+}
+
+.middle a {
+    text-decoration: none;
+    color: grey;
+}
+
+.middle a:hover {
+    text-decoration: underline;
+}
+
+.middle {
+    align-items: center;
+}
+
+.end a {
+    text-decoration: none;
+    color: grey;
+    padding-inline: 1em;
+}
+
+.end a:hover {
+    text-decoration: underline;
+}
+.end {
+    align-items: center;
+}
